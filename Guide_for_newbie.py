@@ -3,7 +3,7 @@ from telebot.types import InlineKeyboardButton, InlineKeyboardMarkup
 from telebot import types
 
 # Token for the Telegram bot
-token = '7458943911:AAFxTFEEoop4RJTMarmYq5HQ4JFTUmhhTfk'
+token = 'Your_token_here'
 bot = telebot.TeleBot(token)
 
 # Dictionary to keep track of previous states
@@ -443,21 +443,21 @@ def send_procedure(message):
 def send_study_building(message):
     markup = types.InlineKeyboardMarkup()
     buttons_building = [
-        types.InlineKeyboardButton(text="🏫Корпус 1(ННІ лісового і садово-паркового господарства, факультет тваринництва та водних біоресурсів,)", url="https://maps.app.goo.gl/ojLYsWD5iDMcABkA8"),
-        types.InlineKeyboardButton(text="🏫Корпус 2", url="https://maps.app.goo.gl/kB5GTqvcfjUYRXnq8"),
-        types.InlineKeyboardButton(text="🏫Корпус 3(гуманітарно-педагогічний факультет)", url="https://maps.app.goo.gl/am69zC8bkacF94136"),
-        types.InlineKeyboardButton(text="🏫Корпус 4(агробіологічний факультет, факультет захисту рослин, біотехнологій та екології)", url="https://maps.app.goo.gl/tZaG4UQaXNTz5uaJ9"),
-        types.InlineKeyboardButton(text="🏫Корпус 5", url="https://maps.app.goo.gl/caNjqZTrFe4v3AAi8"),
-        types.InlineKeyboardButton(text="🏫Корпус 6(юридичний факультет, факультет землевпорядкування)", url="https://maps.app.goo.gl/HDSGs4RfNj1Jx14D8"),
-        types.InlineKeyboardButton(text="🏫Корпус 7", url="https://maps.google.com?q=%D0%BA%D0%BE%D1%80%D0%BF%D1%83%D1%81%207%20%D0%9D%D0%A3%D0%91%D1%96%D0%9F%20%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B8,%20%D0%B2%D1%83%D0%BB%D0%B8%D1%86%D1%8F%20%D0%93%D0%B5%D1%80%D0%BE%D1%97%D0%B2%20%D0%9E%D0%B1%D0%BE%D1%80%D0%BE%D0%BD%D0%B8,%2012%D0%92,%20%D0%9A%D0%B8%D1%97%D0%B2,%2002000&ftid=0x40d4c8c0207d6815:0x440b25db283cbb5a&entry=gps&lucs=,94224825,94227247,94227248,47071704,47069508,94218641,94203019,47084304,94208458,94208447&g_st=com.google.maps.preview.copy"),
-        types.InlineKeyboardButton(text="🏫Корпус 7а", url="https://maps.app.goo.gl/RQLUJXYSwj8pwfaaA"),
-        types.InlineKeyboardButton(text="🏫Корпус 8(ННІ енергетики, автоматики і енергозбереження) ", url="https://maps.app.goo.gl/5RtMz2vWLY1SX75A6"),
-        types.InlineKeyboardButton(text="🏫Корпус 9(кафедра фізичного виховання)", url="https://maps.app.goo.gl/oduaKet9YSM4bCXB6"),
-        types.InlineKeyboardButton(text="🏫Корпус 10(факультет аграрного менеджменту, економічний факультет, навчально-науковий інститут неперервної освіти і туризму)", url="https://maps.app.goo.gl/Mcxzb1aPfEhwikUPA"),
-        types.InlineKeyboardButton(text="🏫Корпус 11(механіко-технологічний факультет, факультет конструювання та дизайну)", url="https://maps.app.goo.gl/aCNeyDSABQSXpUk98"),
-        types.InlineKeyboardButton(text="🏫Корпус 12(факультет ветеринарної медицини, факультет харчових технологій та управління якістю продукції АПК)", url="https://maps.app.goo.gl/izuHFWUyw51HMuQE8"),
-        types.InlineKeyboardButton(text="🏫Корпус 15(факультет інформаційних технологій)", url="https://maps.app.goo.gl/g1B4qDK5zSCq5uBN9"),
-        types.InlineKeyboardButton(text="🏫Корпус 17", url="https://maps.google.com?q=%D0%9D%D0%A3%D0%91%D1%96%D0%9F%20%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B8,%20%D0%BA%D0%BE%D1%80%D0%BF%D1%83%D1%81%20%E2%84%9617,%20%D0%A1%D1%96%D0%BB%D1%8C%D1%81%D1%8C%D0%BA%D0%BE%D0%B3%D0%BE%D1%81%D0%BF%D0%BE%D0%B4%D0%B0%D1%80%D1%81%D1%8C%D0%BA%D0%B8%D0%B9%20%D0%BF%D1%80%D0%BE%D0%B2%D1%83%D0%BB%D0%BE%D0%BA,%204,%20%D0%9A%D0%B8%D1%97%D0%B2,%2003041&ftid=0x40d4c8bfd6c8689d:0x2cfb4103a57e1191&entry=gps&lucs=,94224825,94227247,94227248,47071704,47069508,94218641,94203019,47084304,94208458,94208447&g_st=com.google.maps.preview.copy"),
+        types.InlineKeyboardButton(text="🏫Навчальний Корпус 1", url="https://maps.app.goo.gl/ojLYsWD5iDMcABkA8"),
+        types.InlineKeyboardButton(text="🏫Навчальний Корпус 2", url="https://maps.app.goo.gl/kB5GTqvcfjUYRXnq8"),
+        types.InlineKeyboardButton(text="🏫Навчальний Корпус 3", url="https://maps.app.goo.gl/am69zC8bkacF94136"),
+        types.InlineKeyboardButton(text="🏫Навчальний Корпус 4", url="https://maps.app.goo.gl/tZaG4UQaXNTz5uaJ9"),
+        types.InlineKeyboardButton(text="🏫Навчальний Корпус 5", url="https://maps.app.goo.gl/caNjqZTrFe4v3AAi8"),
+        types.InlineKeyboardButton(text="🏫Навчальний Корпус 6", url="https://maps.app.goo.gl/HDSGs4RfNj1Jx14D8"),
+        types.InlineKeyboardButton(text="🏫Навчальний Корпус 7", url="https://maps.google.com?q=%D0%BA%D0%BE%D1%80%D0%BF%D1%83%D1%81%207%20%D0%9D%D0%A3%D0%91%D1%96%D0%9F%20%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B8,%20%D0%B2%D1%83%D0%BB%D0%B8%D1%86%D1%8F%20%D0%93%D0%B5%D1%80%D0%BE%D1%97%D0%B2%20%D0%9E%D0%B1%D0%BE%D1%80%D0%BE%D0%BD%D0%B8,%2012%D0%92,%20%D0%9A%D0%B8%D1%97%D0%B2,%2002000&ftid=0x40d4c8c0207d6815:0x440b25db283cbb5a&entry=gps&lucs=,94224825,94227247,94227248,47071704,47069508,94218641,94203019,47084304,94208458,94208447&g_st=com.google.maps.preview.copy"),
+        types.InlineKeyboardButton(text="🏫Навчальний Корпус 7а", url="https://maps.app.goo.gl/RQLUJXYSwj8pwfaaA"),
+        types.InlineKeyboardButton(text="🏫Навчальний Корпус 8", url="https://maps.app.goo.gl/5RtMz2vWLY1SX75A6"),
+        types.InlineKeyboardButton(text="🏫Навчальний Корпус 9", url="https://maps.app.goo.gl/oduaKet9YSM4bCXB6"),
+        types.InlineKeyboardButton(text="🏫Навчальний Корпус 10", url="https://maps.app.goo.gl/Mcxzb1aPfEhwikUPA"),
+        types.InlineKeyboardButton(text="🏫Навчальний Корпус 11", url="https://maps.app.goo.gl/aCNeyDSABQSXpUk98"),
+        types.InlineKeyboardButton(text="🏫Навчальний Корпус 12", url="https://maps.app.goo.gl/izuHFWUyw51HMuQE8"),
+        types.InlineKeyboardButton(text="🏫Навчальний Корпус 15", url="https://maps.app.goo.gl/g1B4qDK5zSCq5uBN9"),
+        types.InlineKeyboardButton(text="🏫Навчальний Корпус 17", url="https://maps.google.com?q=%D0%9D%D0%A3%D0%91%D1%96%D0%9F%20%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B8,%20%D0%BA%D0%BE%D1%80%D0%BF%D1%83%D1%81%20%E2%84%9617,%20%D0%A1%D1%96%D0%BB%D1%8C%D1%81%D1%8C%D0%BA%D0%BE%D0%B3%D0%BE%D1%81%D0%BF%D0%BE%D0%B4%D0%B0%D1%80%D1%81%D1%8C%D0%BA%D0%B8%D0%B9%20%D0%BF%D1%80%D0%BE%D0%B2%D1%83%D0%BB%D0%BE%D0%BA,%204,%20%D0%9A%D0%B8%D1%97%D0%B2,%2003041&ftid=0x40d4c8bfd6c8689d:0x2cfb4103a57e1191&entry=gps&lucs=,94224825,94227247,94227248,47071704,47069508,94218641,94203019,47084304,94208458,94208447&g_st=com.google.maps.preview.copy"),
         types.InlineKeyboardButton(text="Назад",callback_data='back_to_campus')
     ]
     for button in buttons_building:
